@@ -3,7 +3,12 @@
 {% block content %}
 
 <h1 class="mb-3">Posts by {{ view.kwargs.username }}</h1>
+
+<!-- Total post count
+
 <a class="btn btn-warning mt-1 mb-2" href="#"> Toatl post {{ page_obj.paginator.count }}</a>
+
+-->
 
         {% for post in posts %}
 
